@@ -1,0 +1,20 @@
+{
+    "description": "A Logger backend that writes the log messages in an easy to parse but also readable json line",
+    "type": "neos-package",
+    "name": "punktde/jsonlogbackend",
+    "license": "MIT",
+    "require": {
+        "neos/flow-log": ">= 5.0",
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PunktDe\\JsonLogBackend\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "PunktDe.JsonLogBackend"
+        }
+    }
+}

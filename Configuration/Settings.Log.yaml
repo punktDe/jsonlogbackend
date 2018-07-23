@@ -1,0 +1,5 @@
+Neos:
+  Flow:
+    log:
+      systemLogger:
+        backend: PunktDe\JsonLogBackend\Log\Backend\JsonFileBackend
