@@ -4,7 +4,7 @@
     "name": "punktde/jsonlogbackend",
     "license": "MIT",
     "require": {
-        "neos/flow-log": ">= 5.0",
+        "neos/flow-log": ">= 4.3",
         "neos/flow": "*"
     },
     "autoload": {
